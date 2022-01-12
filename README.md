@@ -10,6 +10,7 @@ A locally executable script + Apache Jena + Queries to generate (mostly statisti
 	+ per API
 - [Thinigverse.com](thingiverse.com)
 	+ per API (+ workaround due to [#xxxx](URL-TO-TICKET))
+	+ We needed to be _very_ economical with data fields here since due to API bugs we can't filter their database – we're checking out _every_ thing on thingiverse and every datafield is a new request. There are 5+ Mio. things on Thingiverse × the number of data fields → you can do the math :)
 - [GitHub.com](https://github.com/)
 	+ per global search for manifest files
 - [Appropedia.org](https://appropedia.org/)

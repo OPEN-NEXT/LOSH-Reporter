@@ -222,6 +222,7 @@ Since OSHWA also publishes the location of the certified OSH projects (or rather
 ## Wikifactory
 
 Wikifactory is an online platform dedicated to OSH. It is designed to need specific needs and offer specialised services that arise in the development (and production) process of OSH. The platform itself is not open source, but free to use (however, there are some cool premium features).
+It is important to mention that lots of projects on Wikifactory are not open source and hence are not considered in the following statistics.
 
 @fig:wif-proj-hist-cumul illustrates the historical growth of OSH projects on Wikifactory; @fig:wif-proj-tag-cloud shows the most popular tags of those projects in a word cloud.
 
@@ -231,29 +232,9 @@ Wikifactory is an online platform dedicated to OSH. It is designed to need speci
 <!--- word cloud of most used tags -->
 #fig:wif-proj-tag-cloud
 
-These projects are downloaded {average-archiveDownloadCount-WIF} times; [{name-of-WIF-project-with-most-downloads}]({repoURL-of-WIF-project-with-most-downloads}) is currently the most downloaded project with now totalling {archiveDownloadCount-of-project-with-most-downloads-WIF} downloads. @fig:wif-downloads-dist shows the distritubion of downloads per project, @fig:wif-downloads-top20 the top 20 of most downloaded projects on wikifactory.
+The following sections aim to give you a feeling for the OSH projects hosted on that platform :)
 
-<!--- horizontal bar chart with distribution of downloads per project-->
-#fig:wif-downloads-dist
-
-<!--- vertical bar chart with top 20 projects with most downloads-->
-#fig:wif-downloads-top20 
-
-On average an OSH project on Wikifactory consists of {average-number-of-contributions-per-project} contributions; [{name-of-WIF-project-with-most-contributions}]({repoURL-of-WIF-project-with-most-contributions}) is currently the project with most contribution ({number-of-contributions-of-WIF-project-with-most-contributions}).
-
-<!--- horizontal bar chart with distribution of contributions per project-->
-
-[some text]
-
-<!--- vertical bar chart with top 20 projects with most contributions-->
-
-<!--- NOTE: the same repeats for contributors ↓-->
-
-That average of contributions per project comes from averagely {} contributors per project; {} is currently the project with most contribution ({}).
-
-<!--- vertical bar chart with top 20 projects with most contributors-->
-
-It is important to mention that lots of projects on Wikifactory are not open source and hence do not appear in this (or the following) statistics.
+### Project Locations
 
 Since some users on wikifactory also specify the location of their project, we can also see how those projects distribute among countries, as shown in @fig:wif-proj-country and @fig:wif-proj-country-map.
 
@@ -264,6 +245,68 @@ Since some users on wikifactory also specify the location of their project, we c
 #fig:wif-proj-country-map
 
 <!--- NOTE: the world map is totally optional; if that's to hard to implement → no biggy -->
+
+### Most Downloaded
+
+It may be safe to say that OSH projects generally aim to be replicated and therewith have relevant applications in practice, improving people's lifes (in whichever way).
+An indicator for practical replication of a projects is the number of downloads of its technical documentation.
+
+On average an OSH project on Wikifactory is downloaded {average-archiveDownloadCount-WIF} times; [{name-of-WIF-project-with-most-downloads}]({repoURL-of-WIF-project-with-most-downloads}) is currently the most downloaded project with now totalling {archiveDownloadCount-of-project-with-most-downloads-WIF} downloads.
+
+@fig:wif-downloads-dist shows the distribution of downloads per project, @fig:wif-downloads-top20 the top 20 of most downloaded OSH projects on wikifactory.
+
+<!--- horizontal bar chart with distribution of downloads per project-->
+#fig:wif-downloads-dist
+
+<!--- vertical bar chart with top 20 projects with most downloads-->
+#fig:wif-downloads-top20
+
+### Most Viewed
+
+The popularity of open source projects depends on many factors, not only the awesomeness of it's technical solution. Especially for commercialised projects, this may be an important performance indicator; and of course, popular projects may have an easier game when it comes to actual community building.
+An indicator for how much attention a project receives is its number of views.
+
+On average an OSH project on Wikifactory is viewed {average-pageviewsCount-WIF} times; [{name-of-WIF-project-with-most-views}]({repoURL-of-WIF-project-with-most-views}) is currently the most viewed project with now totalling {pageviewsCount-of-project-with-most-views-WIF} views.
+
+@fig:wif-views-dist shows the distribution of total views per project, @fig:wif-views-top20 the top 20 of most viewed OSH projects on wikifactory.
+
+<!--- horizontal bar chart with distribution of total views per project-->
+#fig:wif-views-dist
+
+<!--- vertical bar chart with top 20 projects with most views-->
+#fig:wif-views-top20 
+
+### Most Contributions
+
+Development on Wikifactory is version-controlled per "contribution" made (sort of equals "commits" on git-based systems).
+An indicator for how much development work has been carried out on a single project is its number of contributions.
+
+On average an OSH project on Wikifactory consists of {average-contributionCount-WIF} contributions; [{name-of-WIF-project-with-most-contributions}]({repoURL-of-WIF-project-with-most-contributions}) is currently the project with most contribution with now totalling {contributionCount-of-project-with-most-contributions-WIF} contributions. 
+
+@fig:wif-contributions-dist shows the distribution of total contributions per project, @fig:wif-contributions-top20 the top 20 of OSH projects most contributions on wikifactory.
+
+<!--- horizontal bar chart with distribution of contributions per project-->
+#fig:wif-contributions-dist
+
+<!--- vertical bar chart with top 20 projects with most contributions-->
+#fig:wif-contributions-top20
+
+### Most Contributors
+
+Community is an essential factor for successful open source projects.
+An indicator for how wide the developer base of a single project is, is its number of contributors.
+
+On average an OSH project on Wikifactory has {average-contributors-WIF} contributors; [{name-of-WIF-project-with-most-contributors}]({repoURL-of-WIF-project-with-most-contributors}) is currently the project with most contributors with now totalling {contributors-of-project-with-most-contributors-WIF} contributors. 
+
+@fig:wif-contributors-dist shows the distribution of total contributors per project, @fig:wif-contributors-top20 the top 20 of OSH projects most contributors on wikifactory.
+
+<!--- horizontal bar chart with distribution of contributors per project-->
+#fig:wif-contributors-dist
+
+<!--- vertical bar chart with top 20 projects with most contributors-->
+#fig:wif-contributors-top20
+
+<!--- vertical bar chart with top 20 projects with most contributors-->
 
 # Outro
 

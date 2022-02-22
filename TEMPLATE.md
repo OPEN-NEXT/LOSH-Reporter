@@ -183,6 +183,11 @@ However, since LOSH can only process data that is provided in the first place, p
 <!--- list of all CPCs used in the bar chart above with their full designation, e.g. "H03 – basic electronic circuitry" (https://worldwide.espacenet.com/patent/cpc-browser#!/CPC=H03); there's an ontology that may be useful for that-->
 {#tbl:cpc-legend}
 
+## File Types
+
+- search for MIME types of associated source and export files
+- also state for how many projects source files are even defined
+
 # Platform-specific Insights
 
 ## OSHWA

@@ -24,7 +24,7 @@ comment: license applies to generated reports; date is automatically generated
 
 LOSH xxx
 
-<!--- general info about LOSH to be added -->
+<!--- TODO Moe general info about LOSH to be added -->
 
 Efforts partly merged with the [OSHdata project](oshdata.com), which published annually reports based on data crawled from the [list of OSHWA-certified OSH projects](https://certification.oshwa.org/list.html). Since OSHWA published [its API](https://certificationapi.oshwa.org/documentation), no crawling is needed anymore. And since LOSH is here to collect data also from other platforms, we decided to take care of regular OSHdata reports – now also including data from other platforms.
 
@@ -34,7 +34,7 @@ Generally, all data you will find here is also publicly available in the LOSH kn
 
 xxx
 
-<!--- brief description of scope to be added -->
+<!--- TODO Moe brief description of scope to be added -->
 
 ## Get in contact with us
 
@@ -46,7 +46,7 @@ You can also sign up for our newsletter [here]() or follow us on Twitter via [@O
 
 ## This report…
 
-<!--- brief intro specific to this version of the report to be added -->
+<!--- TODO Moe brief intro specific to this version of the report to be added -->
 
 [[TOC]]
 
@@ -56,7 +56,7 @@ OSH flagship projects
 
 2…4 projects from OSEG-CAB & OHO-CAB to be briefly presented & promoted
 
-<!--- 2021: MNT Reform, OpenFlexure; something from OHO -->
+<!--- TODO Moe 2021: MNT Reform, OpenFlexure; something from OHO -->
 
 <!--- section to be written manually -->
 
@@ -84,7 +84,7 @@ The minimum threshold for LOSH to be recognised as an OSH project is to have:
 - a README file and
 - at least one source file (other than the README.md, CONTRIBUTING.md or an image).
 
-<!--- add short description of upload methods (copy from D3.4 + D3.3 report) -->
+<!--- TODO Moe add short description of upload methods (copy from D3.4 + D3.3 report) -->
 
 ## Data Sources
 
@@ -105,39 +105,39 @@ By the publishing date of this report, the LOSH knowledge base contains:
 
 <!--- NOTE: the list up there is, what is following abbreviated as {platforms} -->
 
-<!--- a bar chart with the above mentioned values, each bar splitting into accepted and rejected projects (rejected projects on top) -->
+<!--- TODO Robin a bar chart with the above mentioned values, each bar splitting into accepted and rejected projects (rejected projects on top) -->
 {#fig:data-input-count}
 
 @fig:data-input-method-dist shows the distribution of upload methods that have been used for this data set.
 
-<!--- bar chart showing the distribution of uploading methods used for LOSH (auto, manifest, manifest-script, manual) -->
+<!--- TODO Robin bar chart showing the distribution of uploading methods used for LOSH (auto, manifest, manifest-script, manual) -->
 {fig:data-input-method-dist}
 
 ### History
 
 Since the first report, published back in February 2022, data input has developed as following:
 
-<!--- combined historical line diagram of total count of projects per year & for for each {platform} -->
+<!--- TODO Robin combined historical line diagram of total count of projects per year & for for each {platform} -->
 
 Looking into the recent past @fig:data-hist-grow2 shows the grow rates for the past two years.
 
-<!--- horizontal bar chart with grow rates per {platform} per each of the past 2 years + a bar for the total grow rate -->
+<!--- TODO Robin horizontal bar chart with grow rates per {platform} per each of the past 2 years + a bar for the total grow rate -->
 {#fig:data-hist-grow2}
 
 ## Licenses
 
 What separates a piece of open source hardware from a proprietary one is primarily its license.
 
-<!--- add more info, also linking the OSH legal issues guideline and the tl;dr -->
+<!--- TODO Moe add more info, also linking the OSH legal issues guideline and the tl;dr -->
 
 The following @fig:license-dist-ind shows the distribution of licenses under which the _hardware_ has been published per platform.
 
-<!--- 1 pie chart per {platform} showing the distribution of `spdxLicense` --> 
+<!--- TODO Robin 1 pie chart per {platform} showing the distribution of `spdxLicense` --> 
 {#fig:license-dist-ind}
 
 Totalled, @fig:license-dist-total is the overall distribution of licenses used for the _hardware_.
 
-<!--- pie chart showing the overall distribution of `spdxLicense`, sorted by strongly, weakly an non-reciprocal licensing schemes --> 
+<!--- TODO Robin pie chart showing the overall distribution of `spdxLicense`, sorted by strongly, weakly an non-reciprocal licensing schemes --> 
 {#fig:license-dist-ind}
 
 ## Hardware Types
@@ -160,15 +160,15 @@ So the two extreme cases would be:
 
 Among the whole knowledge base, the readiness levels distribute as shown in @fig-otrl-total and @fig-odrl-total
 
-<!--- horizontal stacked bar chart for OTRL levels and (stacked) their distribution among the {platforms}, also include "undefined" -->
+<!--- TODO Robin horizontal stacked bar chart for OTRL levels and (stacked) their distribution among the {platforms}, also include "undefined" -->
 {#fig:otrl-total}
 
-<!--- horizontal stacked bar chart for ODRL levels and (stacked) their distribution among the {platforms}, also include "undefined -->
+<!--- TODO Robin horizontal stacked bar chart for ODRL levels and (stacked) their distribution among the {platforms}, also include "undefined -->
 {#fig:odrl-total}
 
 @fig:otrl-odrl-heatmap shows the resulting heatmap for a combination of both scales.
 
-<!--- heatmap of all OSH projects with OTRL AND ODRL defined; see p. 5 here: https://docs.google.com/document/d/1-l6DI91unnAshzjKhjotpAfy_8RsS-9T7YmdYuwL4RI/edit#--> 
+<!--- TODO Robin heatmap of all OSH projects with OTRL AND ODRL defined; see p. 5 here: https://docs.google.com/document/d/1-l6DI91unnAshzjKhjotpAfy_8RsS-9T7YmdYuwL4RI/edit#--> 
 {#fig:otrl-odrl-heatmap}
 
 ### Technology Categories
@@ -177,10 +177,10 @@ Classifying hardware by it's technology can be a non-trivial task – every onli
 
 However, since LOSH can only process data that is provided in the first place, patents classes are only available for {projects-with-cpc-entry} OSH projects (that is {projects-with-cpc-entry/all-projects} % of the knowledge base). @fig:cpc-total shows the total distribution of top-level CPCs, @tbl:cpc-legend provides the full designation for those IDs.
 
-<!--- stacked bar charts with 1 bar per used first level CPC (F, H etc.) and the next sublevel (e.g. H03) stacked -->
+<!--- TODO Robin stacked bar charts with 1 bar per used first level CPC (F, H etc.) and the next sublevel (e.g. H03) stacked -->
 {#fig:cpc-total}
 
-<!--- list of all CPCs used in the bar chart above with their full designation, e.g. "H03 – basic electronic circuitry" (https://worldwide.espacenet.com/patent/cpc-browser#!/CPC=H03); there's an ontology that may be useful for that-->
+<!--- TODO Robin list of all CPCs used in the bar chart above with their full designation, e.g. "H03 – basic electronic circuitry" (https://worldwide.espacenet.com/patent/cpc-browser#!/CPC=H03); there's an ontology that may be useful for that-->
 {#tbl:cpc-legend}
 
 ## File Types
@@ -196,30 +196,30 @@ The Open Source Hardware Association (OSHWA) runs a certification program for OS
 
 @fig:oshwa-cert-cumul shows the historical development of certificates issued in the past years
 
-<!--- line plot of cumulated certifications over time (x-axis could be e.g. per quarter, but that's totally optional) -->
+<!--- TODO Robin line plot of cumulated certifications over time (x-axis could be e.g. per quarter, but that's totally optional) -->
 #fig:oshwa-cert-cumul
 
 @fig:oshwa-cert-rate and @fig:oshwa-cert-growth show the derived certification rate and relative growth.
 
-<!--- line plot of (certifications per year) over time -->
+<!--- TODO Robin line plot of (certifications per year) over time -->
 #fig:oshwa-cert-rate
 
-<!--- horizontal bar chart with growth of (certifications per year) relative to the year before-->
+<!--- TODO Robin horizontal bar chart with growth of (certifications per year) relative to the year before-->
 #fig:oshwa-cert-growth
 
 A total of {number-of-biggest-OSHWA-licensors-adding-up-to-50%} creators have combined to certify ~50 % of all currently OSHWA-certified projects. So {number-of-biggest-OSHWA-licensors-adding-up-to-50% / oshwa-unique-licensors-total} % of creators make half of OSHWA's database. On the other end we have {number-of-OSHWA-licensors-with-only-1-certificate} holders of a single certificate ( % of all creators). This calculates to a median of nearly {OSHWA-median-certificates-per-licensor} per participating individual or organization.
 
 @fig:oshwa-cert-rate illustrates the distribution of certifications among creators.
 
-<!--- vertical bar chart with certifications per licensor-->
+<!--- TODO Robin vertical bar chart with certifications per licensor-->
 #fig:oshwa-cert-rate
 
 Since OSHWA also publishes the location of the certified OSH projects (or rather the corresponding team or organisation, presumingly), we can also see how these certifications distribute among countries, as shown in @fig:oshwa-cert-country and @fig:oshwa-cert-country-map.
 
-<!--- vertical bar chart with certifications per country -->
+<!--- TODO Robin vertical bar chart with certifications per country -->
 #fig:oshwa-cert-country 
 
-<!--- world map with certifications per country (see https://i0.wp.com/oshdata.wpcomstaging.com/wp-content/uploads/2020/09/cert-density-by-country.png?resize=768%2C467&ssl=1)-->
+<!--- TODO Robin world map with certifications per country (see https://i0.wp.com/oshdata.wpcomstaging.com/wp-content/uploads/2020/09/cert-density-by-country.png?resize=768%2C467&ssl=1)-->
 #fig:oshwa-cert-country-map.
 
 <!--- NOTE: the world map is totally optional; if that's to hard to implement → no biggy -->
@@ -231,10 +231,10 @@ It is important to mention that lots of projects on Wikifactory are not open sou
 
 @fig:wif-proj-hist-cumul illustrates the historical growth of OSH projects on Wikifactory; @fig:wif-proj-tag-cloud shows the most popular tags of those projects in a word cloud.
 
-<!--- line plot of cumulated project creations over time (`dateCreated`) (x-axis could be e.g. per quarter, but that's totally optional) -->
+<!--- TODO Robin line plot of cumulated project creations over time (`dateCreated`) (x-axis could be e.g. per quarter, but that's totally optional) -->
 #fig:wif-proj-hist-cumul
 
-<!--- word cloud of most used tags -->
+<!--- TODO Robin word cloud of most used tags -->
 #fig:wif-proj-tag-cloud
 
 The following sections aim to give you a feeling for the OSH projects hosted on that platform :)
@@ -243,10 +243,10 @@ The following sections aim to give you a feeling for the OSH projects hosted on 
 
 Since some users on wikifactory also specify the location of their project, we can also see how those projects distribute among countries, as shown in @fig:wif-proj-country and @fig:wif-proj-country-map.
 
-<!--- vertical bar chart with projects per country (`createdInRegion`) -->
+<!--- TODO Robin vertical bar chart with projects per country (`createdInRegion`) -->
 #fig:wif-proj-country
 
-<!--- world map with projects per country (see https://i0.wp.com/oshdata.wpcomstaging.com/wp-content/uploads/2020/09/cert-density-by-country.png?resize=768%2C467&ssl=1)-->
+<!--- TODO Robin world map with projects per country (see https://i0.wp.com/oshdata.wpcomstaging.com/wp-content/uploads/2020/09/cert-density-by-country.png?resize=768%2C467&ssl=1)-->
 #fig:wif-proj-country-map
 
 <!--- NOTE: the world map is totally optional; if that's to hard to implement → no biggy -->
@@ -260,10 +260,10 @@ On average an OSH project on Wikifactory is downloaded {average-archiveDownloadC
 
 @fig:wif-downloads-dist shows the distribution of downloads per project, @fig:wif-downloads-top20 the top 20 of most downloaded OSH projects on wikifactory.
 
-<!--- horizontal bar chart with distribution of downloads per project-->
+<!--- TODO Robin horizontal bar chart with distribution of downloads per project-->
 #fig:wif-downloads-dist
 
-<!--- vertical bar chart with top 20 projects with most downloads-->
+<!--- TODO Robin vertical bar chart with top 20 projects with most downloads-->
 #fig:wif-downloads-top20
 
 ### Most Viewed
@@ -275,10 +275,10 @@ On average an OSH project on Wikifactory is viewed {average-pageviewsCount-WIF} 
 
 @fig:wif-views-dist shows the distribution of total views per project, @fig:wif-views-top20 the top 20 of most viewed OSH projects on wikifactory.
 
-<!--- horizontal bar chart with distribution of total views per project-->
+<!--- TODO Robin horizontal bar chart with distribution of total views per project-->
 #fig:wif-views-dist
 
-<!--- vertical bar chart with top 20 projects with most views-->
+<!--- TODO Robin vertical bar chart with top 20 projects with most views-->
 #fig:wif-views-top20 
 
 ### Most Contributions
@@ -290,10 +290,10 @@ On average an OSH project on Wikifactory consists of {average-contributionCount-
 
 @fig:wif-contributions-dist shows the distribution of total contributions per project, @fig:wif-contributions-top20 the top 20 of OSH projects most contributions on wikifactory.
 
-<!--- horizontal bar chart with distribution of contributions per project-->
+<!--- TODO Robin horizontal bar chart with distribution of contributions per project-->
 #fig:wif-contributions-dist
 
-<!--- vertical bar chart with top 20 projects with most contributions-->
+<!--- TODO Robin vertical bar chart with top 20 projects with most contributions-->
 #fig:wif-contributions-top20
 
 ### Most Contributors
@@ -305,45 +305,18 @@ On average an OSH project on Wikifactory has {average-contributors-WIF} contribu
 
 @fig:wif-contributors-dist shows the distribution of total contributors per project, @fig:wif-contributors-top20 the top 20 of OSH projects most contributors on wikifactory.
 
-<!--- horizontal bar chart with distribution of contributors per project-->
+<!--- TODO Robin horizontal bar chart with distribution of contributors per project-->
 #fig:wif-contributors-dist
 
-<!--- vertical bar chart with top 20 projects with most contributors-->
+<!--- TODO Robin vertical bar chart with top 20 projects with most contributors-->
 #fig:wif-contributors-top20
 
-<!--- vertical bar chart with top 20 projects with most contributors-->
+<!--- TODO Robin vertical bar chart with top 20 projects with most contributors-->
 
 # Outro
 
-<!--- add brief & friendly outro -->
+<!--- TODO Moe add brief & friendly outro -->
 
 See also
 
 - https://stateofoshw.oshwa.org/
-
-# Undeficed contents 
-
-[to be (maybe) deleted (maybe not)]
-
-```
-
-# git-based platforms, OKH and Appropedia
-
-- some detailled statistics based on manifest files
-	+ OKH(v1) count + historical grow rate (2 years)
-		* fields used (vertical bar chart) <!--- would require parsing the original YAML files-->
-	+ appropedia count + historical grow rate (2 years)
-		* fields used (vertical bar chart) <!--- would require parsing the original TOML files-->
-	+ on git-based platforms OKH-LOSH (manifest) count + historical grow rate (2 years)
-		* fields used (vertical bar chart) <!--- would require parsing the original TOML files-->
-
-## Community-based Assessment according to DIN SPEC 3105-2
-
-- CAB data
-	+ project count:
-		- attested/in progress + historical grow rate (2 years)
-		- OHO / OSEG
-	* certification per organisation
-	* average assessment time (first submission…final attestation) + variance
-	* average number of comments per asssessment + variance for top & bottom 10% of assessment time
-```

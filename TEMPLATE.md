@@ -117,11 +117,11 @@ By the publishing date of this report, the LOSH knowledge base contains:
 
 Since the first report, published back in February 2022, data input has developed as following:
 
-<!--- TODO Robin combined historical line diagram of total count of projects per year & for for each {platform} -->
+<!--- TODO Robin combined historical line diagram of total count of projects per year & for each {platform} -->
 
 Looking into the recent past @fig:data-hist-grow2 shows the grow rates for the past two years.
 
-<!--- TODO Robin horizontal bar chart with grow rates per {platform} per each of the past 2 years + a bar for the total grow rate -->
+<!--- TODO LATER Robin horizontal bar chart with grow rates per {platform} per each of the past 2 years + a bar for the total grow rate -->
 {#fig:data-hist-grow2}
 
 ## Licenses

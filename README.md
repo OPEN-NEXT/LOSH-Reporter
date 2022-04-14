@@ -10,33 +10,47 @@ The LOSH reporter generates MD, PDF and HTML reports.
 ## Supported OSH-Platforms
 
 - [Wikifactory.com](https://wikifactory.com/)
-	+ per API
+  - per API
 - [OSHWA Certification List](https://certification.oshwa.org/list.html)
-	+ per API
+  - per API
 - [Thinigverse.com](thingiverse.com)
-	+ per API (+ workaround due to [#xxxx](URL-TO-TICKET))
-	+ We needed to be _very_ economical with data fields here since due to API bugs we can't filter their database – we're checking out _every_ thing on thingiverse and every datafield is a new request. There are 5+ Mio. things on Thingiverse × the number of data fields → you can do the math :)
+  - per API (+ workaround due to [#xxxx](URL-TO-TICKET))
+  - We needed to be _very_ economical with data fields here,
+    since due to API bugs,
+    we can't filter their database –
+    we're checking out _every_ thing on thingiverse
+    and every datafield is a new request.
+    There are 5+ Mio. things on Thingiverse
+    × the number of data fields
+    → you can do the math :)
 - [GitHub.com](https://github.com/)
-	+ per global search for manifest files
+  - per global search for manifest files
 - [Appropedia.org](https://appropedia.org/)
-	+ per script, exporting manifest files to GitHub.com
+  - per script, exporting manifest files to GitHub.com
 - [OKHv1](https://www.internetofproduction.org/open-know-how)
-	+ per script, exporting manifest files to GitHub.com
+  - per script, exporting manifest files to GitHub.com
 
 Note on other platforms:
 
 - [GitLab.com](https://gitlab.com/)
-	+ does yet not support global file search ([#2263](https://forum.gitlab.com/t/search-code-across-all-projects/2263), [#14597](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/14597)), which is a blocker
+  - does not yet support global file search
+    ([#2263](https://forum.gitlab.com/t/search-code-across-all-projects/2263),
+    [#14597](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/14597)),
+    which is a blocker
 
 ## How to read the template
 
 - `TEMPLATE.md` is the template for the report to be generated
 - `{DATA-FIELD}` is to be replaced by the value of the referenced `DATA-FIELD`
-- diagrams are referenced using the `pandoc-fignos` syntax: inline in the text with `@fig:SOME-REF` and directly under the diagram with `{#fig:SOME-REF}`
+- diagrams are referenced using the `pandoc-fignos` syntax:
+  inline in the text with `@fig:SOME-REF`
+  and directly under the diagram with `{#fig:SOME-REF}`
 
 Comment:
 
-- While the report speaks of OSH _projects_, the `OKH-LOSH` specification defines OSH `modules`. In data specifications in this repo we'll use the `OKH-LOSH` notion.
+- While the report speaks of OSH _projects_,
+  the `OKH-LOSH` specification defines OSH `modules`.
+  In data specifications in this repo we'll use the `OKH-LOSH` notion.
 - If not otherwise noted, numbers refer to modules, _ignoring their different versions_.
 - …hence calculations are (if not otherwise noted) run on the total LOSH data
 

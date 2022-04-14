@@ -13,8 +13,8 @@ from reporter.core.errors import NoQueryProvided, RequestError, NoEnvironmentVar
 
 load_dotenv()
 
-FUSEKI_URL = os.getenv('FUSEKI_URL')
-FUSEKI_DATASET_NAME = os.getenv('FUSEKI_DATASET_NAME')
+FUSEKI_URL = os.getenv('FUSEKI_URL', 'http://localhost:3030')
+FUSEKI_DATASET_NAME = os.getenv('FUSEKI_DATASET_NAME', 'loshrdf')
 
 
 def request(query) -> list:

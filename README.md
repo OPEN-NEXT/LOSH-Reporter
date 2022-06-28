@@ -6,6 +6,10 @@ SPDX-FileCopyrightText: 2022 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-License-Identifier: CC0-1.0
 -->
 
+[![REUSE status](
+    https://api.reuse.software/badge/github.com/OPEN-NEXT/LOSH-Reporter)](
+    https://api.reuse.software/info/github.com/OPEN-NEXT/LOSH-Reporter)
+
 # LOSH-Reporter
 
 The LOSH reporter is couple of files that,

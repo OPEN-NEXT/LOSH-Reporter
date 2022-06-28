@@ -4,10 +4,11 @@ The LOSH reporter is a CLI tool
 that queries an Apache Jena Fuseki server
 that contains data about OSH projects.
 The data extracted by the queries is used to generate a report
-about selected aspects of the OSH projects.
+about selected aspects of the OSH projects,
+including statistics about the data.
 The LOSH reporter generates MD, PDF and HTML reports.
 
-## Supported OSH-Platforms
+## Supported OSH Platforms
 
 - [Wikifactory.com](https://wikifactory.com/)
   - per API

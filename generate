@@ -10,16 +10,17 @@ set -Eeuo pipefail
 
 mkdir -p output
 
-jupyter nbconvert \
-	--to pdf \
-	--output-dir=output \
-	--no-input \
-	report.ipynb
-jupyter nbconvert \
-	--to html \
-	--output-dir=output \
-	--no-input \
-	report.ipynb
+for outfmt in pdf html markdown
+do
+	jupyter nbconvert \
+		--to "$outfmt" \
+		--output-dir=output \
+		--no-input \
+		report.ipynb
+done
 
-echo "Successfully created 'output/report.pdf' and 'output/report.html'!"
+echo
+echo "Successfully created:"
+ls -1 "output/report."*
+
 

@@ -12,6 +12,12 @@
 @prefix schema:  <http://schema.org/> .
 @prefix :        <#> .
 
+<!--
+SPDX-FileCopyrightText: 2022 Nicolas Traeder <nicolas@konek.to>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 <#service> rdf:type fuseki:Service ;
     fuseki:name              "ds" ;   # http://host:port/ds
     fuseki:serviceQuery      "sparql" ;    # SPARQL query service

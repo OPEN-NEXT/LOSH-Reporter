@@ -1,3 +1,11 @@
+<!--
+SPDX-FileCopyrightText: 2022 Martin Haeuer <martin.haeuer@ose-germany.de>
+SPDX-FileCopyrightText: 2022 Nicolas Traeder <nicolas@konek.to>
+SPDX-FileCopyrightText: 2022 Robin Vobruba <hoijui.quaero@gmail.com>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # LOSH-Reporter
 
 The LOSH reporter is couple of files that,

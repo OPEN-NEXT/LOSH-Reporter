@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: LOSH Reporter
+Upstream-Contact: Robin Vobruba <hoijui.quaero@gmail.com>
+Source: https://github.com/OPEN-NEXT/LOSH-Reporter
+
+Files: report.ipynb
+Copyright: Martin Haeuer <martin.haeuer@ose-germany.de>
+Copyright: Nicolas Traeder <nicolas@konek.to>
+Copyright: Robin Vobruba <hoijui.quaero@gmail.com>
+License: GPL-3.0-or-later
+
+Files: data-fields.csv
+Copyright: Nicolas Traeder <nicolas@konek.to>
+License: CC0-1.0
+
+Files: specs/gitlab-platforms.csv
+Copyright: Nicolas Traeder <nicolas@konek.to>
+License: CC0-1.0
+

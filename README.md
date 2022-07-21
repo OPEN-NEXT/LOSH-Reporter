@@ -63,10 +63,11 @@ Note on other platforms:
 
 1. Install [Jupyter-Lab](https://jupyter.org/)
 2. Make shure you have the LOSH RDF DB set-up locally
-    with Jena and Jena-Fuseki.
+    with Apache Jena and Jena-Fuseki.
     You can do that most easily with our [RDF-DB tester](https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester),
     by following the instructions in its README.
-    When you run its `web-ui` script, Apache JEna Fusei should be running,
+    When you run its `web-ui` script,
+    Jena Fuseki should be running,
     and you are ready to go.
 3. Run it, and open the report file: `jupyter-lab report.ipynb`
 

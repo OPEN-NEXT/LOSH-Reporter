@@ -8,7 +8,25 @@
 set -Eeuo pipefail
 #set -Eeu
 
-mkdir -p output
+title="LOSH Report 2022"
+
+mkdir -p output/imgs
+
+function dl_img() {
+
+	local url="$1"
+	local file
+	file="output/imgs/$(basename "$url")"
+
+	if ! [ -f "$file" ]
+	then
+		curl "$url" --output "$file"
+	fi
+}
+
+dl_img "https://mntre.com/media/reform_v2_images/reform_v2_prototype_top.jpg"
+dl_img "https://openflexure.org/assets/ds-photos/ds_v1.2.0_wide.jpg"
+dl_img "https://upload.wikimedia.org/wikipedia/commons/7/73/Upsatinspace.jpg"
 
 for outfmt in pdf html markdown
 do

@@ -28,13 +28,20 @@ dl_img "https://mntre.com/media/reform_v2_images/reform_v2_prototype_top.jpg"
 dl_img "https://openflexure.org/assets/ds-photos/ds_v1.2.0_wide.jpg"
 dl_img "https://upload.wikimedia.org/wikipedia/commons/7/73/Upsatinspace.jpg"
 
+cp report.ipynb "$title.ipynb"
 for outfmt in pdf html markdown
 do
 	jupyter nbconvert \
 		--to "$outfmt" \
 		--output-dir=output \
 		--no-input \
-		report.ipynb
+		"$title.ipynb"
+done
+rm "$title.ipynb"
+
+for rep in "output/$title."*
+do
+	mv "$rep" "${rep/$title/report}"
 done
 
 echo
